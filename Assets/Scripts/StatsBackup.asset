@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1a03bb4c80c30846806770a803fe956, type: 3}
+  m_Name: StatsBackup
+  m_EditorClassIdentifier: 
+  stats:
+  - statName: Strength
+    statDescLong: '[Physical]'
+    statDescShort: '[Physical]'
+    statLevel: 0
+    statType: 0
+  - statName: Dexterity
+    statDescLong: '[Physical]'
+    statDescShort: '[Physical]'
+    statLevel: 0
+    statType: 0
+  - statName: Stamina
+    statDescLong: '[Physical]'
+    statDescShort: '[Physical]'
+    statLevel: 0
+    statType: 0
+  - statName: Charisma
+    statDescLong: '[Social]'
+    statDescShort: '[Social]'
+    statLevel: 0
+    statType: 0
+  - statName: Manipulation
+    statDescLong: '[Social]'
+    statDescShort: '[Social]'
+    statLevel: 0
+    statType: 0
+  - statName: Composure
+    statDescLong: '[Social]'
+    statDescShort: '[Social]'
+    statLevel: 0
+    statType: 0
+  - statName: Intelligence
+    statDescLong: '[Mental]'
+    statDescShort: '[Mental]'
+    statLevel: 0
+    statType: 0
+  - statName: Wits
+    statDescLong: '[Mental]'
+    statDescShort: '[Mental]'
+    statLevel: 0
+    statType: 0
+  - statName: Resolve
+    statDescLong: '[Mental]'
+    statDescShort: '[Mental]'
+    statLevel: 0
+    statType: 0
+  - statName: Athletics
+    statDescLong: '[Physical]'
+    statDescShort: '[Physical]'
+    statLevel: 0
+    statType: 1
+  - statName: Brawl
+    statDescLong: '[Physical]'
+    statDescShort: '[Physical]'
+    statLevel: 0
+    statType: 1
+  - statName: Craft
+    statDescLong: '[Physical]'
+    statDescShort: '[Physical]'
+    statLevel: 0
+    statType: 1
+  - statName: Drive
+    statDescLong: '[Physical]'
+    statDescShort: '[Physical]'
+    statLevel: 0
+    statType: 1
+  - statName: Firearm
+    statDescLong: '[Physical]'
+    statDescShort: '[Physical]'
+    statLevel: 0
+    statType: 1
+  - statName: Melee
+    statDescLong: '[Physical]'
+    statDescShort: '[Physical]'
+    statLevel: 0
+    statType: 1
+  - statName: Larceny
+    statDescLong: '[Physical]'
+    statDescShort: '[Physical]'
+    statLevel: 0
+    statType: 1
+  - statName: Stealth
+    statDescLong: '[Physical]'
+    statDescShort: '[Physical]'
+    statLevel: 0
+    statType: 1
+  - statName: Survival
+    statDescLong: '[Physical]'
+    statDescShort: '[Physical]'
+    statLevel: 0
+    statType: 1
+  - statName: Animal Ken
+    statDescLong: '[Social]'
+    statDescShort: '[Social]'
+    statLevel: 0
+    statType: 1
+  - statName: Etiquette
+    statDescLong: '[Social]'
+    statDescShort: '[Social]'
+    statLevel: 0
+    statType: 1
+  - statName: Insight
+    statDescLong: '[Social]'
+    statDescShort: '[Social]'
+    statLevel: 0
+    statType: 1
+  - statName: Intimidation
+    statDescLong: '[Social]'
+    statDescShort: '[Social]'
+    statLevel: 0
+    statType: 1
+  - statName: Leadership
+    statDescLong: '[Social]'
+    statDescShort: '[Social]'
+    statLevel: 0
+    statType: 1
+  - statName: Performance
+    statDescLong: '[Social]'
+    statDescShort: '[Social]'
+    statLevel: 0
+    statType: 1
+  - statName: Persuasion
+    statDescLong: '[Social]'
+    statDescShort: '[Social]'
+    statLevel: 0
+    statType: 1
+  - statName: Streetwise
+    statDescLong: '[Social]'
+    statDescShort: '[Social]'
+    statLevel: 0
+    statType: 1
+  - statName: Subterfuge
+    statDescLong: '[Social]'
+    statDescShort: '[Social]'
+    statLevel: 0
+    statType: 1
+  - statName: Academics
+    statDescLong: '[Mental]'
+    statDescShort: '[Mental]'
+    statLevel: 0
+    statType: 1
+  - statName: Awareness
+    statDescLong: '[Mental]'
+    statDescShort: '[Mental]'
+    statLevel: 0
+    statType: 1
+  - statName: Finance
+    statDescLong: '[Mental]'
+    statDescShort: '[Mental]'
+    statLevel: 0
+    statType: 1
+  - statName: Investigation
+    statDescLong: '[Mental]'
+    statDescShort: '[Mental]'
+    statLevel: 0
+    statType: 1
+  - statName: Medicine
+    statDescLong: '[Mental]'
+    statDescShort: '[Mental]'
+    statLevel: 0
+    statType: 1
+  - statName: Occult
+    statDescLong: '[Mental]'
+    statDescShort: '[Mental]'
+    statLevel: 0
+    statType: 1
+  - statName: Politics
+    statDescLong: '[Mental]'
+    statDescShort: '[Mental]'
+    statLevel: 0
+    statType: 1
+  - statName: Science
+    statDescLong: '[Mental]'
+    statDescShort: '[Mental]'
+    statLevel: 0
+    statType: 1
+  - statName: Technology
+    statDescLong: '[Mental]'
+    statDescShort: '[Mental]'
+    statLevel: 0
+    statType: 1
