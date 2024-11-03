@@ -17,6 +17,7 @@ public class HungerManager : MonoBehaviour
 
     public void hungerButton()
     {
+        Debug.Log("Set hunger to: " + Convert.ToInt32(hunger.text));
         player.hunger = Convert.ToInt32(hunger.text);
     }
 
