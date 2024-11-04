@@ -22,6 +22,7 @@ public class StatChanger : MonoBehaviour
 
         if (player.stats.stats[Convert.ToInt32(input.text)].statLevel + value < 0 || player.stats.stats[Convert.ToInt32(input.text)].statLevel + value > 5)
         {
+            return;
         }
         else
         {
