@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering.UI;
-using UnityEngine.UIElements;
+using UnityEngine.UI;
 
 public class XPManager : MonoBehaviour
 {
@@ -54,10 +54,12 @@ public class XPManager : MonoBehaviour
     List<int> alteredSkillIDs = new List<int>();
     SkillCheck skillCheck;
     Player player;
+    Canvas canvas;
 
     private void Awake()
     {
         player = FindFirstObjectByType<Player>();
+        canvas = FindFirstObjectByType<Canvas>();
     }
 
     public void IncreaseLevel(int id)
@@ -99,6 +101,13 @@ public class XPManager : MonoBehaviour
          {
             player.stats.stats[alteredSkillIDs[i]].statLevel--;
          }
+        foreach (Button button in canvas.GetComponentsInChildren<Button>())
+        {
+            if (button.GetComponent<SheetIconUpdate>() != null)
+            {
+                button.GetComponent<SheetIconUpdate>().UpdateStatIcon();
+            }
+        }
         player.xp += TempUsedXP;
         TempUsedXP = 0;
         alteredSkillIDs.Clear();
